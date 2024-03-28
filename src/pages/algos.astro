@@ -1,12 +1,12 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 import { getCollection } from 'astro:content';
-import FormattedDate from '../../components/FormattedDate.astro';
+import FormattedDate from '../components/FormattedDate.astro';
 
-const posts = (await getCollection('reading')).sort(
+const posts = (await getCollection('algos')).sort(
 	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
 ---
@@ -24,7 +24,7 @@ const posts = (await getCollection('reading')).sort(
 					{
 						posts.map((post) => (
 							<li class="mb-8">
-								<a href={`/reading/${post.slug}/`}>
+								<a href={`/algos/${post.slug}/`}>
 									<h1 class="text-xl font-bold hover:underline">{post.data.title}</h4>
 									<p class="date text-xs font-medium">
 										<FormattedDate date={post.data.pubDate} />
