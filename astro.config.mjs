@@ -8,8 +8,7 @@ import rehypeKatex from 'rehype-katex';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://unmoutonperdu.github.io/',
-  base: '/blog',
+  site: 'https://unmoutonperdu.github.io',
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
 		remarkPlugins: [remarkMath],
