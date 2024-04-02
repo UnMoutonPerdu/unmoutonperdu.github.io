@@ -31,8 +31,8 @@ BFS(Graph G, Node root):
   WHILE (Q is not empty):
     v = Q.dequeue()
     IF (v is goal):
-      return v
-    FOR each neighbor of v in G:
+      RETURN v
+    FOR EACH neighbor of v in G:
       IF neighbor has not been explored:
         neighbor.isExplored()
         Q.enqueue(neighbor)

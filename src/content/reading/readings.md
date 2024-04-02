@@ -15,8 +15,9 @@ td, th {
 
 <center>
 
-|              |              |              |
-| ------------ | ------------ | ------------ |
-| Bullet Train | Kōtarō Isaka |2010|
+|              |              |              |              |
+| ------------ | ------------ | ------------ | ------------ |
+| Bullet Train | Kōtarō Isaka | Novel        | 2010         |
+| Ijiranaide, Nagatoro-san | Nanashi | Manga        | 2017 - Nowadays         |
 
 </center>

@@ -24,9 +24,9 @@ Where $E$ is the set of edges of the graph, $V$, its set of vertices, $b$, its b
 ```
 DFS(Graph G, Node root):
   IF (root is goal):
-    return root
+    RETURN root
   root.isExplored()
-  FOR each neighbor of v in G:
+  FOR EACH neighbor of v in G:
     IF neighbor has not been explored:
       DFS(G, neighbor)
 ```
@@ -40,8 +40,8 @@ DFS(Graph G, Node root):
   WHILE (S is not empty):
     v = S.pop()
     IF (v is goal):
-      return v
-    FOR each neighbor of v in G:
+      RETURN v
+    FOR EACH neighbor of v in G:
       IF neighbor has not been explored:
         neighbor.isExplored()
         S.push(neighbor)
