@@ -1,0 +1,52 @@
+html {
+    background-color: #cdc7c6;
+    font-family: sans-serif;
+}
+
+html.dark {
+    background-color: #12121f;
+    color: #fff;
+}
+
+.dark .nav-links a {
+    color: #fff;
+}
+
+.dark .text-gray-800 {
+    color: #edc7c7;
+}
+
+.dark .text-gray-600 {
+    color: #edc7c7;
+}
+
+.dark .text-black {
+    color: #fff;
+}
+
+.dark .text-gray-500 {
+    color: #edc7c7;
+}
+
+
+/*Markdown x CSS*/
+
+.dark .markdown-content {
+    color: white;
+}
+
+.dark .title h1 {
+    color: rgb(159, 158, 158);
+}
+
+.dark .markdown-content h2 {
+    color: rgb(159, 158, 158);
+}
+
+.dark .markdown-content th {
+    color: rgb(159, 158, 158);
+}
+
+.dark .date {
+    color: #edc7c7;
+}

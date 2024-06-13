@@ -5,7 +5,7 @@ pubDate: 'Jul 01 2022'
 heroImage: ''
 ---
 
-### Currently Reading
+## Currently Reading
 
 <style>
 td, th {
@@ -17,7 +17,6 @@ td, th {
 
 |              |              |              |              |
 | ------------ | ------------ | ------------ | ------------ |
-| Bullet Train | Kōtarō Isaka | Novel        | 2010         |
-| Ijiranaide, Nagatoro-san | Nanashi | Manga        | 2017 - Nowadays         |
+| The Hobbit | J. R. R. Tolkien | Novel        | 1937         |
 
 </center>
