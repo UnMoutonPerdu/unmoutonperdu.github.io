@@ -8,6 +8,22 @@ html.dark {
     color: #fff;
 }
 
+.title hr {
+    border-color: black;
+}
+
+.dark .title hr {
+    border-color: white;
+} 
+
+.reading {
+    color: #1f1e1e;
+}
+
+.dark .reading {
+    color: #bbbbbb;
+}
+
 .dark .nav-links a {
     color: #fff;
 }
@@ -49,4 +65,45 @@ html.dark {
 
 .dark .date {
     color: #edc7c7;
+}
+
+/*Trips x CSS*/
+
+.travel-box ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 10px;
+    justify-content: space-between;
+    gap: 1px;
+}
+
+.travel-box li {
+    width: 30%;
+    height: 75px;
+    outline: 1px solid;
+    background-color: white;
+    color: black;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    transition: box-shadow 0.3s ease; 
+    transition: transform .3s;
+}
+
+.travel-box li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), /* Horizontal and vertical offset, blur radius, and color */
+                0 6px 20px rgba(0, 0, 0, 0.19); 
+    transform: scale(1.2); 
+}
+
+.travel-box h1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.dark .travel-box li:hover {
+    box-shadow: 0 4px 8px rgb(122, 121, 121), /* Horizontal and vertical offset, blur radius, and color */
+                0 6px 20px rgb(122, 121, 121); 
 }

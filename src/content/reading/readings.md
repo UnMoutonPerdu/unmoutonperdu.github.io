@@ -8,9 +8,7 @@ heroImage: ''
 ## Currently Reading
 
 <style>
-td, th {
-   border: none!important;
-}
+
 </style>
 
 <center>
