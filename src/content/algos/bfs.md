@@ -1,6 +1,6 @@
 ---
-title: 'BFS (Breadth-First Search)'
-description: 'Graph traversal'
+title: 'Algorithm - BFS (Breadth-First Search)'
+description: 'Algorithm - Graph traversal'
 pubDate: 'March 25 2024'
 heroImage: ''
 ---

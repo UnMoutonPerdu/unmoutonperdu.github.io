@@ -1,6 +1,6 @@
 ---
-title: 'A*'
-description: 'Graph traversal - Path Finding'
+title: 'Algorithm - A*'
+description: 'Algorithm - Graph traversal - Path Finding'
 pubDate: 'April 2 2024'
 heroImage: ''
 ---

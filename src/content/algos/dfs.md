@@ -1,6 +1,6 @@
 ---
-title: 'DFS (Depth-First Search)'
-description: 'Graph traversal'
+title: 'Algorithm - DFS (Depth-First Search)'
+description: 'Algorithm - Graph traversal'
 pubDate: 'March 28 2024'
 heroImage: ''
 ---

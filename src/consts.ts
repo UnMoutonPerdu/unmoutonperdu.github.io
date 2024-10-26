@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'Purple Rain';
 export const SITE_DESCRIPTION = 'Welcome to my website!';
-export const SITE_SUBTITLE = 'A simple blog by me';
+export const SITE_SUBTITLE = 'A blog by me';

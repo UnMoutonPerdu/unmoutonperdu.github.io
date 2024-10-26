@@ -1,10 +1,10 @@
 html {
-    background-color: #cdc7c6;
+    background-color: #c9b6b3;
     font-family: sans-serif;
 }
 
 html.dark {
-    background-color: #12121f;
+    background-color: #401e37;
     color: #fff;
 }
 
@@ -52,15 +52,27 @@ html.dark {
 }
 
 .dark .title h1 {
-    color: rgb(159, 158, 158);
+    color: #bab3b3;
 }
 
 .dark .markdown-content h2 {
-    color: rgb(159, 158, 158);
+    color: #bab3b3;
 }
 
 .dark .markdown-content th {
-    color: rgb(159, 158, 158);
+    color: #bab3b3;
+}
+
+.markdown-content li::marker {
+    color: black;
+}
+
+.dark .markdown-content li::marker {
+    color: #bab3b3;
+}
+
+.dark .markdown-content a {
+    color: #bab3b3;
 }
 
 .dark .date {
@@ -118,6 +130,8 @@ html.dark {
     border-width: 1px;
 }
 
+/* About page */
+
 .dark .cv-picture {
     border-color: white;
 }
@@ -137,4 +151,18 @@ html.dark {
 .img__wrap:hover .img__description {
 visibility: hidden;
 opacity: 0.5;
+}
+
+.cv-description {
+    margin-right: 20px;
+}
+
+.cv-description-1 {
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+
+.cv-description-3 {
+    margin-top: 40px;
+    margin-left: 20px;
 }
