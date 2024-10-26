@@ -113,9 +113,13 @@ html.dark {
     margin: 0px 20px 10px 20px;
     padding: 0px;
     border-radius: 10px;
-    border-color: white;
+    border-color: black;
     border-style: solid;
     border-width: 1px;
+}
+
+.dark .cv-picture {
+    border-color: white;
 }
 
 .img__description {
