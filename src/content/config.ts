@@ -52,4 +52,4 @@ const trips = defineCollection({
 	}),
 });
 
-export const collections = { blog, algos, reading, trips };
+export const collections = { 'blog': blog, 'algos':algos, 'reading': reading, 'trips':trips };
