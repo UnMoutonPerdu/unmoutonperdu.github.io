@@ -3,7 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro"
 ---
 
 <BaseLayout title="About Me">
+	<div class="img__wrap">
+		<img src="images/cv_cropped.jpeg" alt="me" class="cv-picture" width="120">
+		<p class="img__description">Hello there!</p>
+	  </div>
+	
 	<p>Hi ! I'm Hugo, a french student currently working on my double degree at Polytechnique Montreal.</p>
-	<p>I really have no idea what I'm doing with this blog or what I'm going to put on it. But it keeps me busy on nights when I don't know what to do... Maybe </p>
-	<p>By the way I use Astro to build this website. All my posts are written in Markdown and the site is hosted on GitHub Pages.</p>
+	<p>This blog was just an idea that popped into my head one night and so I decided to build it and put some stuff on it. In fact, it keeps me busy on nights when I don't know what to do... </p>
+	<p>By the way I use Astro and Tailwind CSS to build this website. All my posts are written in Markdown and the site is hosted on GitHub Pages.</p>
 </BaseLayout>

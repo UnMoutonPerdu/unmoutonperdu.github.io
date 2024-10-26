@@ -107,3 +107,30 @@ html.dark {
     box-shadow: 0 4px 8px rgb(122, 121, 121), /* Horizontal and vertical offset, blur radius, and color */
                 0 6px 20px rgb(122, 121, 121); 
 }
+
+.cv-picture {
+    float:left;
+    margin: 0px 20px 10px 20px;
+    padding: 0px;
+    border-radius: 10px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.img__description {
+    position: relative;
+    background: white;
+    color: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility .2s;
+    border-radius: 10px;
+    margin-left: 150px;
+    width: 300px;
+}
+  
+.img__wrap:hover .img__description {
+visibility: hidden;
+opacity: 0.5;
+}
