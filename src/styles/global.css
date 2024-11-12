@@ -4,7 +4,7 @@ html {
 }
 
 html.dark {
-    background-color: #401e37;
+    background-color: #312f36;
     color: #fff;
 }
 
@@ -79,6 +79,38 @@ html.dark {
     color: #edc7c7;
 }
 
+/* Tags */
+
+.tag-button {
+    width: 90px;
+    height: 30px;
+    background-color: #c9b6b3;
+    color: rgb(50, 46, 46);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* Makes each div circular */
+    font-size: 1.2rem;
+    border-color: rgb(146, 143, 143);
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .tag-button:hover {
+    color: rgb(212, 212, 212);
+    background-color: #857775;
+  }
+
+.dark .tag-button {
+    background-color: #312f36;
+    color: rgb(186, 185, 185);
+}
+
+.dark .tag-button:hover {
+    color: white;
+    background-color: #4e4c55;
+}
+
 /*Trips x CSS*/
 
 .travel-box ul {
@@ -122,7 +154,7 @@ html.dark {
 
 .cv-picture {
     float:left;
-    margin: 0px 20px 10px 20px;
+    margin: 5px 20px 10px 0px;
     padding: 0px;
     border-radius: 10px;
     border-color: black;
@@ -154,7 +186,7 @@ opacity: 0.5;
 }
 
 .cv-description {
-    margin-right: 20px;
+    margin-right: 0px;
 }
 
 .cv-description-1 {
@@ -164,5 +196,5 @@ opacity: 0.5;
 
 .cv-description-3 {
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 0px;
 }

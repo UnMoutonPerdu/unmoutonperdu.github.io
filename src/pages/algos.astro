@@ -9,6 +9,7 @@ import FormattedDate from '../components/FormattedDate.astro';
 const posts = (await getCollection('algos')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const tags = [...new Set(posts.map((post) => post.data.tags).flat())];
 ---
 
 <!doctype html>
@@ -19,6 +20,17 @@ const posts = (await getCollection('algos')).sort(
 	<body class="max-w-readable m-auto px-4">
 		<Header />
 		<main>
+			<section class="mb-8">
+				<div class="flex gap-10 justify-start">
+					{
+						tags.map((tag) => (
+							<a href={`/tags/${tag}`} class="tag-button">
+								{tag}
+							</a>
+						))
+					}
+				</div>
+			</section>
 			<section>
 				<ul>
 					{

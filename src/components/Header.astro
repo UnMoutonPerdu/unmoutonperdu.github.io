@@ -1,22 +1,22 @@
 ---
 import HeaderLink from './HeaderLink.astro';
 import ThemeIcon from './ThemeIcon.astro';
-import { SITE_TITLE, SITE_SUBTITLE } from '../consts';
+import { NAME, LAST_NAME, SITE_SUBTITLE } from '../consts';
 ---
 
 <header>
 	<nav class="flex justify-between my-16">
 		<div>
-			<h2 class="text-2xl font-medium"><a href="/">{SITE_TITLE}</a></h2>
+			<h2 class="text-3xl"><a class="font-bold" href="/">{NAME}</a><a class="font-medium" href="/"> {LAST_NAME}</a></h2>
 			<p class="text-gray-600">{SITE_SUBTITLE}</p>
 		</div>
 
-		<div class="internal-links flex gap-4">
+		<div class="internal-links flex gap-6">
 			<HeaderLink href="/">Home</HeaderLink>
 			<!-- <HeaderLink href="/trips">Trips</HeaderLink> -->
 			<HeaderLink href="/algos">Work</HeaderLink>
-			<HeaderLink href="/reading/readings">Reading</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<!-- <HeaderLink href="/reading/readings">Reading</HeaderLink> -->
+			<!--<HeaderLink href="/about">About</HeaderLink> -->
 			<ThemeIcon />
 		</div>
 	</nav>	
