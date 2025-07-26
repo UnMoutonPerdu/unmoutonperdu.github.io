@@ -1,9 +1,9 @@
 ---
-title: 'DFS (Depth-First Search)'
+title: 'NoA - DFS (Depth-First Search)'
 description: 'Algorithm - Graph traversal'
 pubDate: 'March 28 2024'
 heroImage: ''
-tags: ["algorithm"]
+tags: ["Algorithm"]
 ---
 
 ## Description

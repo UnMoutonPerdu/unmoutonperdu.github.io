@@ -1,9 +1,9 @@
 ---
-title: 'Clash of Particles'
+title: 'Programming - Clash of Particles'
 description: 'A basic simulation ot the movement of particles inside a box'
 pubDate: '26 October 2024'
 heroImage: ''
-tags: ["project"]
+tags: ["Project"]
 ---
 
 ## Description

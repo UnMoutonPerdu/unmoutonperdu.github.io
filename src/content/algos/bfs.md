@@ -1,9 +1,9 @@
 ---
-title: 'BFS (Breadth-First Search)'
+title: 'NoA - BFS (Breadth-First Search)'
 description: 'Algorithm - Graph traversal'
 pubDate: 'March 25 2024'
 heroImage: ''
-tags: ["algorithm"]
+tags: ["Algorithm"]
 ---
 
 ## Description

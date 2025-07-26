@@ -59,6 +59,10 @@ html.dark {
     color: #bab3b3;
 }
 
+.dark .markdown-content h3 {
+    color: #bab3b3;
+}
+
 .dark .markdown-content th {
     color: #bab3b3;
 }
@@ -82,34 +86,34 @@ html.dark {
 /* Tags */
 
 .tag-button {
-    width: 90px;
-    height: 30px;
-    background-color: #c9b6b3;
-    color: rgb(50, 46, 46);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px; /* Makes each div circular */
-    font-size: 1.2rem;
-    border-color: rgb(146, 143, 143);
-    border-style: solid;
-    border-width: 1px;
-  }
+  padding: 0.5rem 1rem; /* Vertical and horizontal padding */
+  background-color: #c9b6b3;
+  color: rgb(50, 46, 46);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: 1px solid rgb(146, 143, 143);
+  white-space: nowrap; /* Prevent wrapping for long labels */
+  cursor: pointer;
+}
 
-  .tag-button:hover {
-    color: rgb(212, 212, 212);
-    background-color: #857775;
-  }
+.tag-button:hover {
+  color: rgb(212, 212, 212);
+  background-color: #857775;
+}
 
 .dark .tag-button {
-    background-color: #312f36;
-    color: rgb(186, 185, 185);
+  background-color: #312f36;
+  color: rgb(186, 185, 185);
 }
 
 .dark .tag-button:hover {
-    color: white;
-    background-color: #4e4c55;
+  color: white;
+  background-color: #4e4c55;
 }
+
 
 /*Trips x CSS*/
 

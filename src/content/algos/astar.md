@@ -1,9 +1,9 @@
 ---
-title: 'A*'
+title: 'NoA - A*'
 description: 'Algorithm - Graph traversal - Path Finding'
 pubDate: 'April 2 2024'
 heroImage: ''
-tags: ["algorithm"]
+tags: ["Algorithm"]
 ---
 
 ## Description

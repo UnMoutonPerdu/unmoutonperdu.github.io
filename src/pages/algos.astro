@@ -22,6 +22,9 @@ const tags = [...new Set(posts.map((post) => post.data.tags).flat())];
 		<main>
 			<section class="mb-8">
 				<div class="flex gap-10 justify-start">
+					<a href={`/algos`} class="tag-button">
+								All
+							</a>
 					{
 						tags.map((tag) => (
 							<a href={`/tags/${tag}`} class="tag-button">

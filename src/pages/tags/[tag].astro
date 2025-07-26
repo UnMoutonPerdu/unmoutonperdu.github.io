@@ -10,10 +10,16 @@ export async function getStaticPaths() {
     const posts = await getCollection('algos');
 	
     return [
-        {params: {tag: "algorithm"}, props: {posts: posts}},
-        {params: {tag: "project"}, props: {posts: posts}}
+        {params: {tag: "Algorithm"}, props: {posts: posts}},
+        {params: {tag: "Project"}, props: {posts: posts}},
+        {params: {tag: "Internship"}, props: {posts: posts}}
     ];
 }
+
+const allPosts = (await getCollection('algos')).sort(
+	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+const allTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
 const { tag } = Astro.params;
 const { posts } = Astro.props;
@@ -27,6 +33,20 @@ const filteredPosts = posts.filter((post) => post.data.tags.includes(tag));
 	<body class="max-w-readable m-auto px-4">
 		<Header />
 		<main>
+            <section class="mb-8">
+				<div class="flex gap-10 justify-start">
+                    <a href={`/algos`} class="tag-button">
+								All
+							</a>
+					{
+						allTags.map((tag) => (
+							<a href={`/tags/${tag}`} class="tag-button">
+								{tag}
+							</a>
+						))
+					}
+				</div>
+			</section>
 			<section>
                 <ul>
                     {
